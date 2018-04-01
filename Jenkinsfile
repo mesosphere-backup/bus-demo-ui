@@ -20,7 +20,7 @@ node {
     marathon(
         url: 'http://marathon.mesos:8080',
         forceUpdate: false,
-        id: 'joerg/test'
+        id: 'joerg/test',
         filename: 'marathon.json'
     )
 }
