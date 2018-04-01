@@ -10,6 +10,9 @@ node {
     stage 'Checkout'
     checkout scm
 
+    stage 'Build'
+    sh "echo test && sleep 2"
+ 
 
     // Deploy
     stage 'Deploy'
