@@ -1,5 +1,5 @@
 {
-  "id": "/bus-demo/dashboard",
+  "id": "/ui-test-123",
   "container": {
     "type": "MESOS",
     "docker": {
